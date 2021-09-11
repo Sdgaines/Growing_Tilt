@@ -6,22 +6,19 @@
     border-radius: 50%;
     height: 100px;
     width: 100px;
-    margin: 50px;
-    
 }
+
 .square {
     height: 100px;
-    width: 100px;
-    margin: 50px;
-    
+    width: 100px;   
 }
 
 #container {
-    width: auto;
-    height: 50vh;
+    gap: 80px;
+    margin: 75px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr
-    
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: 1fr;
 }
 
 body {
@@ -87,16 +84,14 @@ body {
     
     .circle {
     border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    margin: 20px;
+    height: 60px;
+    width: 60px;
     
 }
 
 .square {
-    height: 40px;
-    width: 40px;
-    margin: 20px;
+    height: 60px;
+    width: 60px;
     
 }
 }

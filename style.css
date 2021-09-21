@@ -1,166 +1,166 @@
 @media screen and (min-width: 500px) {
 
-* {
-    box-sizing: border-box;
-}
-
-.circle {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-}
-
-.square {
-    height: 100px;
-    width: 100px;   
-}
-
-#container {
-    gap: 80px;
-    margin: 75px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: 1fr;
-}
-
-body {
-    background-color: rgb(219, 203, 203);
-}
-
-.red {
-    background-color: rgb(219, 53, 53);
-    transition: transform 0.1s;
-}
-
-.yellow {
-    background-color: rgb(218, 218, 13);
-    transition: transform 0.1s;
-}
-
-.green {
-    background-color: rgb(61, 194, 61);
-    transition: transform 0.1s;
-}
-
-.white {
-    background-color: rgb(250, 249, 242);
-    transition: transform 0.1s;
-}
-.blue {
-    background-color: rgb(50, 40, 187);
-    transition: transform 0.1s;
-}
-.pink {
-    background-color: rgb(185, 120, 150);
-    transition: transform 0.1s;
-}
-.orange {
-    background-color: rgb(216, 168, 66);
-    transition: transform 0.1s;
-}
-.black {
-    background-color: rgb(12, 11, 6);
-    transition: transform 0.1s;
-}
-.purple {
-    background-color: rgb(113, 5, 146);
-    transition: transform 0.1s;
-}
-.gray {
-    background-color: rgb(94, 92, 92);
-    transition: transform 0.1s;
-}
-
-.circle.enlarge {
-    transform: scale(2);    
-}
-
-.square.tilt {
-    transform: rotate(45deg);
-}
-
-}
-
-@media screen and (max-width: 380px) {
-    
-    
     * {
-    box-sizing: border-box;
-}
-
-.circle {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-}
-
-.square {
-    height: 50px;
-    width: 50px;   
-}
-
-#container {
-    gap: 80px;
-    margin: 75px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-template-rows: 1fr;
-}
-
-body {
-    background-color: rgb(219, 203, 203);
-}
-
-.red {
-    background-color: rgb(219, 53, 53);
-    transition: transform 0.1s;
-}
-
-.yellow {
-    background-color: rgb(218, 218, 13);
-    transition: transform 0.1s;
-}
-
-.green {
-    background-color: rgb(61, 194, 61);
-    transition: transform 0.1s;
-}
-
-.white {
-    background-color: rgb(250, 249, 242);
-    transition: transform 0.1s;
-}
-.blue {
-    background-color: rgb(50, 40, 187);
-    transition: transform 0.1s;
-}
-.pink {
-    background-color: rgb(185, 120, 150);
-    transition: transform 0.1s;
-}
-.orange {
-    background-color: rgb(216, 168, 66);
-    transition: transform 0.1s;
-}
-.black {
-    background-color: rgb(12, 11, 6);
-    transition: transform 0.1s;
-}
-.purple {
-    background-color: rgb(113, 5, 146);
-    transition: transform 0.1s;
-}
-.gray {
-    background-color: rgb(94, 92, 92);
-    transition: transform 0.1s;
-}
-
-.circle.enlarge {
-    transform: scale(2);    
-}
-
-.square.tilt {
-    transform: rotate(45deg);
+        box-sizing: border-box;
+    }
     
-}
-}
+    .circle {
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .square {
+        height: 100px;
+        width: 100px;   
+    }
+    
+    #container {
+        gap: 80px;
+        margin: 75px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(115px, 1fr));
+        grid-template-rows: 1fr;
+    }
+    
+    body {
+        background-color: rgb(219, 203, 203);
+    }
+    
+    .red {
+        background-color: rgb(219, 53, 53);
+        transition: transform 0.1s;
+    }
+    
+    .yellow {
+        background-color: rgb(218, 218, 13);
+        transition: transform 0.1s;
+    }
+    
+    .green {
+        background-color: rgb(61, 194, 61);
+        transition: transform 0.1s;
+    }
+    
+    .white {
+        background-color: rgb(250, 249, 242);
+        transition: transform 0.1s;
+    }
+    .blue {
+        background-color: rgb(50, 40, 187);
+        transition: transform 0.1s;
+    }
+    .pink {
+        background-color: rgb(185, 120, 150);
+        transition: transform 0.1s;
+    }
+    .orange {
+        background-color: rgb(216, 168, 66);
+        transition: transform 0.1s;
+    }
+    .black {
+        background-color: rgb(12, 11, 6);
+        transition: transform 0.1s;
+    }
+    .purple {
+        background-color: rgb(113, 5, 146);
+        transition: transform 0.1s;
+    }
+    .gray {
+        background-color: rgb(94, 92, 92);
+        transition: transform 0.1s;
+    }
+    
+    .circle.enlarge {
+        transform: scale(2);    
+    }
+    
+    .square.tilt {
+        transform: rotate(45deg);
+    }
+    
+    }
+    
+    @media screen and (max-width: 380px) {
+        
+        
+        * {
+        box-sizing: border-box;
+    }
+    
+    .circle {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .square {
+        height: 50px;
+        width: 50px;   
+    }
+    
+    #container {
+        gap: 80px;
+        margin: 75px;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    }
+    
+    body {
+        background-color: rgb(219, 203, 203);
+    }
+    
+    .red {
+        background-color: rgb(219, 53, 53);
+        transition: transform 0.1s;
+    }
+    
+    .yellow {
+        background-color: rgb(218, 218, 13);
+        transition: transform 0.1s;
+    }
+    
+    .green {
+        background-color: rgb(61, 194, 61);
+        transition: transform 0.1s;
+    }
+    
+    .white {
+        background-color: rgb(250, 249, 242);
+        transition: transform 0.1s;
+    }
+    .blue {
+        background-color: rgb(50, 40, 187);
+        transition: transform 0.1s;
+    }
+    .pink {
+        background-color: rgb(185, 120, 150);
+        transition: transform 0.1s;
+    }
+    .orange {
+        background-color: rgb(216, 168, 66);
+        transition: transform 0.1s;
+    }
+    .black {
+        background-color: rgb(12, 11, 6);
+        transition: transform 0.1s;
+    }
+    .purple {
+        background-color: rgb(113, 5, 146);
+        transition: transform 0.1s;
+    }
+    .gray {
+        background-color: rgb(94, 92, 92);
+        transition: transform 0.1s;
+    }
+    
+    .circle.enlarge {
+        transform: scale(2);    
+    }
+    
+    .square.tilt {
+        transform: rotate(45deg);
+        
+    }
+    }
+    
